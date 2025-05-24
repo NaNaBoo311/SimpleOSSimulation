@@ -110,3 +110,5 @@ free up frame of RAM since the size of SWAP device is usually large enough.
   - The most resource-intensive step is page swapping:
     - If the page is in the `MEMSWAP` device, I bring it back to the `MEMRAM` device (swapping in).
     - If there is insufficient space in `MEMRAM`, I swap out other pages to `MEMSWAP` to make room.
+
+
